@@ -1,5 +1,6 @@
-import runners from '../public/runners.svg'
-import Image from 'next/image'
+import runners from '../public/runners.svg';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function LandingPage() {
   return (
@@ -14,7 +15,9 @@ export default function LandingPage() {
         <Image src={runners} width={500} height={500} />
       </div>
       <div className='mx-auto mb-3'>
-        <button>Enter</button>
+        <Link href='/dashboard'>
+          <button className='button'>Enter</button>
+        </Link>
       </div>
     </div>
   );

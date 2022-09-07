@@ -21,7 +21,7 @@ a {
   box-sizing: border-box;
 }
 
-button {
+.button {
   align-items: center;
   background-color: #B2DFDB !important;
   border-color: transparent;
@@ -35,7 +35,7 @@ button {
   padding: 0.25rem 2.5rem;
 }
 
-button:hover {
+.button:hover {
   background-color: #00796B !important;
   color: #B2DFDB;
   transform: translateY(-0.25rem);
